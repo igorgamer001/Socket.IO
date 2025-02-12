@@ -8,9 +8,6 @@ const PORT = 3000;
 // Create an HTTP server
 const server = http.createServer(app);
 
-
-
-
 // Initialize Socket.IO
 const io = new Server(server);
 
